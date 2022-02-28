@@ -1,7 +1,7 @@
 ---
 title: "Centering DOMs in CSS"
 date: 2022-02-28 11:30 +0900
-category: js
+categories: css
 ---
 
 # Centering DOMs in CSS
