@@ -1,6 +1,6 @@
 ---
 title: "Implementing a simple search form using Svelte"
-date: 2022-03-22 04:05 +0900
+date: 2022-03-22 04:15 +0900
 categories: js svelte
 ---
 
@@ -29,6 +29,8 @@ function searchMatch(ref, key, rank) {
   // While case (3) includes both (1) and (2), separating this could make 
   // the search a bit faster (when there are too many to search through).
 
+  // just in case when @ref is undefined
+  if (ref === undefined) return rank ? Infinity : false;
   // case (1): starts with
   if (ref.startsWith(key)) return (rank ? 1 : true); 
   // case (2): includes
