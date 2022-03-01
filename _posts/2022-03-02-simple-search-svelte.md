@@ -1,6 +1,6 @@
 ---
 title: "Implementing a simple search form using Svelte"
-date: 2022-03-22 04:15 +0900
+date: 2022-03-02 04:15 +0900
 categories: js svelte
 ---
 
