@@ -21,7 +21,7 @@ function showWidget() {
 }
 function hideWidget() {
   setTimeout(() => {
-    if (!document.getElementById("form").hasFocus()) {
+    if (document.activeElement != document.getElementById("form")) {
       // if the input element is no longer the active element (lost focus)
       document.getElementById("widget").classList.add("hidden");
     }
@@ -56,7 +56,7 @@ More simply, using Svelte
 ...
 <input type="..." bind:this={formDOM} on:focus={() => { showWidget = true; }} on:blur={() => {
   setTimeout(() => {
-      if (!formDOM.hasFocus()) {
+      if (document.activeElement != formDOM) {
         // if the input element is no longer the active element (lost focus)
         showWidget = false;
       }
@@ -75,6 +75,6 @@ More simply, using Svelte
 
 ## Readings:
 - [DOM.hasFocus()](https://developer.mozilla.org/en-US/docs/Web/API/Document/hasFocus)
-- [document.activeElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement) (to compare)
-- [DOM.focus()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus)
+- [document.activeElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/activeElement) (priority)
+- [DOM.focus()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus) (to compare)
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
