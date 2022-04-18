@@ -29,4 +29,4 @@ function loadApplicationState() {
 function saveApplicationState(data) {
   localStorage.setItem("state", JSON.stringify(data));
 }
-``
+```
