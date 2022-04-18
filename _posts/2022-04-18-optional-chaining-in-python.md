@@ -1,7 +1,7 @@
 ---
 title: "Optional Chaining in Python"
 date: 2022-04-18 13:20 +0900
-categories: css
+categories: python
 ---
 
 # Optional Chaining in Python
