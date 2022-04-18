@@ -13,7 +13,7 @@ However, you may find only relying on localStorage can make it harder to manage 
 For instance, you updated the application that requires changes to users' localStorage data.
 Here's a pattern.
 
-```{js}
+```javascript
 async function manageState(currentState) {
   let existingState = loadApplicationState();
   if (existingState?.version !== currentState.version) {
