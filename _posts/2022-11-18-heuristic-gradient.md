@@ -36,21 +36,21 @@ makeGradient(my_key_color); // [{r: 236, g: 249, b: 225}, { r: 90, b: 0, g: 200 
 
 This is something like below.
 
-<div style="width: 400px; height: 30px; background: linear-gradient(0.75turn, #ecf9ff, #5a00c8); color: white; font-size: 0.9rem;">
+<div style="width: 400px; height: 30px; padding: 0.25rem; background: linear-gradient(0.75turn, #ecf9ff, #5a00c8); color: white; font-size: 0.9rem;">
 rgb(90, 0, 200) → rgb(236, 249, 225)
 </div>
 
 More examples: 
 
-<div style="width: 400px; height: 30px; background: linear-gradient(0.75turn, #e1f6f4, #009eb3); color: white; font-size: 0.9rem;">
+<div style="width: 400px; height: 30px; padding: 0.25rem; background: linear-gradient(0.75turn, #e1f6f4, #009eb3); color: white; font-size: 0.9rem;">
 rgb(0, 158, 179) → rgb(225, 246, 244)
 </div>
 
-<div style="width: 400px; height: 30px; background: linear-gradient(0.75turn, #f6e1eb, #b35900); color: white; font-size: 0.9rem;">
+<div style="width: 400px; height: 30px; padding: 0.25rem; background: linear-gradient(0.75turn, #f6e1eb, #b35900); color: white; font-size: 0.9rem;">
 rgb(179, 89, 0) → rgb(246, 225, 235)
 </div>
 
-<div style="width: 400px; height: 30px; background: linear-gradient(0.75turn, #e7f1e5, #308727); color: white; font-size: 0.9rem;">
+<div style="width: 400px; height: 30px; padding: 0.25rem; background: linear-gradient(0.75turn, #e7f1e5, #308727); color: white; font-size: 0.9rem;">
 rgb(48, 135, 39) → rgb(231, 241, 229)
 </div>
 
