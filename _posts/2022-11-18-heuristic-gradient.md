@@ -36,7 +36,23 @@ makeGradient(my_key_color); // [{r: 236, g: 249, b: 225}, { r: 90, b: 0, g: 200 
 
 This is something like below.
 
-<div style="width: 200px; height: 30px; background: linear-gradient(0.25turn, #ecf9ff, #5a00c8);"></div>
+<div style="width: 200px; height: 30px; background: linear-gradient(0.75turn, #ecf9ff, #5a00c8); color: white; text-align: right;">
+rgb(90, 0, 200) → rgb(236, 249, 225)
+</div>
+
+More examples: 
+
+<div style="width: 300px; height: 30px; background: linear-gradient(0.75turn, #e1f6f4, #009eb3); color: white; text-align: right;">
+rgb(0, 158, 179) → rgb(225, 246, 244)
+</div>
+
+<div style="width: 300px; height: 30px; background: linear-gradient(0.75turn, #f6e1eb, #b35900); color: white; text-align: right;">
+rgb(179, 89, 0) → rgb(246, 225, 235)
+</div>
+
+<div style="width: 300px; height: 30px; background: linear-gradient(0.75turn, #e7f1e5, #308727); color: white; text-align: right;">
+rgb(48, 135, 39) → rgb(231, 241, 229)
+</div>
 
 
 The end!
