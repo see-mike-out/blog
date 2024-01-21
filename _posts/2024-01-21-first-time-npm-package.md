@@ -1,7 +1,7 @@
 ---
 title: "First time publishing an NPM package?"
 date: 2024-01-21 11:55 -0600
-categories: js, npm
+categories: js npm
 ---
 
 # Making a project 
